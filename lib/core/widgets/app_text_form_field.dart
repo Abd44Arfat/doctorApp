@@ -16,6 +16,7 @@ class AppTextFormField extends StatelessWidget {
   final Color? backgroundColor;
   final TextEditingController? controller;
   final Function(String?) validator;
+
   const AppTextFormField({
     super.key,
     this.contentPadding,
